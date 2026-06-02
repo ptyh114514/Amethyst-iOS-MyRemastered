@@ -123,8 +123,8 @@ jobs:
           set -e
           mkdir -p mobileglues-artifact
           cd mobileglues-artifact
-          # Download MobileGlues artifact (workflow_run id: 22014226012)
-          gh run download 22014226012 --repo MobileGL-Dev/MobileGlues --name MobileGlues-iOS-dylib --dir .
+          # Download MobileGlues artifact (workflow_run id: 24915154905)
+          gh run download 24915154905 --repo MobileGL-Dev/MobileGlues --name MobileGlues-iOS-dylib --dir .
           ls -la
           echo "Artifact downloaded successfully"
 
